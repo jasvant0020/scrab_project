@@ -1,0 +1,70 @@
+.about-section {
+  background: white;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-intro {
+  font-size: 1.3rem;
+  color: var(--text);
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.highlight-item {
+  background: var(--light);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.highlight-item:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  box-shadow: 0 10px 30px rgba(10, 102, 194, 0.1);
+}
+
+.highlight-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.highlight-item h3 {
+  color: var(--dark);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.highlight-item p {
+  color: var(--text);
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.highlight-item .small {
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
